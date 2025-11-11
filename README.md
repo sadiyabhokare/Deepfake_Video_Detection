@@ -30,7 +30,7 @@ Deepfake_Video_Detection
 
 ````
 
-### Components  
+## Components  
 1. **Django Application**  
    - A web-based interface where users can upload videos for deepfake detection.  
    - The trained model runs on the backend and displays whether the video is *real* or *fake*.  
@@ -70,31 +70,30 @@ Deepfake_Video_Detection
 
 ## 5. How to Run the Project  
 
-### 🛠️ Setup Instructions  
+## 🛠️ Setup Instructions  
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/sadiyabhokare/Deepfake_Video_Detection.git
    cd Deepfake_Video_Detection
-````
+   ````
 
 2. **Create a virtual environment**
-
    ```bash
    python -m venv venv
    source venv/Scripts/activate  # On Windows
-   ```
+   ````
 
 3. **Install dependencies**
 
    ```bash
    pip install -r requirements.txt
-   ```
+   ````
 
 4. **Run the Django server**
 
    ```bash
    python manage.py runserver
-   ```
+   ````
 
 5. **Access the application**
    Open your browser and go to:
@@ -119,5 +118,3 @@ Deepfake_Video_Detection
 * [**Contributor 4 Name**](https://github.com/username4)
 
 ---
-
-⭐ **If you found this project helpful, don’t forget to give it a star on GitHub!**
